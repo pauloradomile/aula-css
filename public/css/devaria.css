@@ -2,7 +2,7 @@
 /* #1c0c3f */
 
 html {
-    height: 100px;
+    height: 100%;
 }
 
 body {
@@ -10,4 +10,18 @@ body {
     font-family: sans-serif;
     color: #fff;
     margin: 0px;
+}
+
+.title {
+    padding: 0 20px;
+    font-size: 1.75em;
+    text-transform: uppercase;
+}
+
+h1.title {
+    padding: 40 auto 20px;
+}
+
+.text-justify{
+    text-align: justify;
 }
