@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="public/css/header.css" />
         <link rel="stylesheet" href="public/css/devaria.css" />
         <link rel="stylesheet" href="public/css/footer.css" />
+        <link rel="stylesheet" href="public/css/fale-conosco.css" />
+
 
 
         <title>Grite Conosco!!!</title>
@@ -24,40 +26,41 @@
             </nav>
         </header>
         <main>
-            <h1>Fale Conosco:</h1>
-            <h2>Pode gritar a vontade, ninguém vai responder!</h2>
-            <form action="index.html">
-                <p>
+            <h1 class="title text-center">Fale Conosco através desta pagina:</h1>
+            <h2 class="sub-title text-center">Pode gritar a vontade, ninguém vai responder e depois clique em enviar!</h2>
+            <form action="index.html" class="contact-form margin-horizontal-20px">
+                <div>
                     <label>Name:</label><input type="text" name="Nome" maxlength="70" />
-                </p>
-                <p>
+                </div>
+                <div>
                     <label>E-mail:</label><input type="text" name="Email:" maxlength="120" />
-                </p>
-                <p>
+                </div>
+                <div>
                     <label>Comentários</label>
                     <textarea name="Comantarios" cols="50" rows="4" required="true"></textarea>
-                </p>
-                <p>
+                </div>
+                <div>
                     <label>Sexo:</label>
-                    <input type="radio" name="Sexo" /><label>Feminino</label>
-                    <input type="radio" name="Sexo" /><label>Masculino</label>
-                </p>
-                <p>
+                    <input type="radio" name="Sexo" /><span>Feminino</span>
+                    <input type="radio" name="Sexo" /><span>Masculino</span>
+                </div>
+
+                <div>
                     <label>Aonde nos conheceu?</label>
                     <select name="Conheceu">
                         <option selected>Youtube</option>
                         <option>Google</option>
                         <option>Jornal</option>
                     </select>
-                </p>
-                <p>
+                </div>
+                <div>
                     <input type="checkbox" name="Aceite" value="Aceite" />
-                    <label>Aceito reberber lixos de spam!</label>
-                </p>
-                <p>
+                    <span>Aceito reberber lixos de spam!</span>
+                </div>
+                <div>
                     <input type="submit" name="Enviar" value="Enviar" />
                     <input type="reset" name="Limpar" value="Limpar" />
-                </p>
+                </div>
             </form>
         </main>        
         <footer>
